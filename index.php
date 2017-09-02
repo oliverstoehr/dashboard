@@ -12,14 +12,19 @@
 	</head>
 	<body>
 		<!-- Header -->
-		<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light justify-content-between">
 			<span class="navbar-brand">Dashboard</span>
 			<button id="refresh" class="btn btn-outline-success my-2 my-sm-0" type="button"><span class="oi oi-reload" aria-label="reload"></span></button>
 		</nav>
 		<!-- Main content -->
 		<main>
-			
+
 		</main>
+		
+		<!-- Loading screen -->
+		<div id="loading-screen">
+			<span class="oi oi-reload"></span>
+		</div>
 		
 		<!-- including chart.js -->
 		<script src="chartjs/chart.bundle.js"></script>
