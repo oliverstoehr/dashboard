@@ -5,12 +5,14 @@
 		<title>Dashboard</title>
 		<!-- including Bootstrap CSS -->
 		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+		<!-- including Iconic icon font -->
+		<link rel="stylesheet" href="openiconic/css/open-iconic-bootstrap.min.css">
 	</head>
 	<body>
 		<!-- Header -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
 			<span class="navbar-brand">Dashboard</span>
-			<button id="refresh" class="btn btn-outline-success my-2 my-sm-0" type="button">refresh</button>
+			<button id="refresh" class="btn btn-outline-success my-2 my-sm-0" type="button"><span class="oi oi-reload" aria-label="reload"></span></button>
 		</nav>
 		<!-- Main content -->
 		<main>
