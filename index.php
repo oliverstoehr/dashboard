@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 		<!-- including Iconic icon font -->
 		<link rel="stylesheet" href="openiconic/css/open-iconic-bootstrap.min.css">
+		<!-- including custom stylesheet -->
+		<link rel="stylesheet" href="custom.css">
 	</head>
 	<body>
 		<!-- Header -->
@@ -21,5 +23,7 @@
 		
 		<!-- including chart.js -->
 		<script src="chartjs/chart.bundle.js"></script>
+		<!-- including custom.js -->
+		<script src="custom.js"></script>
 	</body>
 </html>
