@@ -14,11 +14,10 @@
 		<!-- Header -->
 		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light justify-content-between">
 			<span class="navbar-brand">Dashboard</span>
-			<button id="refresh" class="btn btn-outline-success my-2 my-sm-0" type="button"><span class="oi oi-reload" aria-label="reload"></span></button>
+			<button id="reload" class="btn btn-outline-success my-2 my-sm-0" type="button"><span class="oi oi-reload" aria-label="reload"></span></button>
 		</nav>
 		<!-- Main content -->
-		<main>
-
+		<main class="container-fluid" id="content">
 		</main>
 		
 		<!-- Loading screen -->
