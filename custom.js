@@ -40,7 +40,7 @@ function createChart(parentElement, i, title, data) {
 	var canvas = document.createElement("canvas");
 	var canvasWrapper = document.createElement("div");
 	var col = document.createElement("div");
-	col.className = "col-md-4";
+	col.className = "col-lg-4";
 	var card = document.createElement("div");
 	card.className = "card";
 	card.appendChild(h1);
