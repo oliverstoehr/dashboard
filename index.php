@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
 		<title>Dashboard</title>
 		<!-- including Bootstrap CSS -->
 		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
