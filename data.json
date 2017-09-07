@@ -1,0 +1,468 @@
+{
+	"charts":[
+		{  
+		  "type":"bar",
+		  "data":{  
+		    "labels":[  
+		      "Star Wars VII",
+		      "Jurassic World",
+		      "Marvel's The Avengers"
+		    ],
+		    "datasets":[  
+		      {  
+		        "label":"Opening weekends (million USD)",
+		        "data":[  
+		          247.9,
+		          208.8,
+		          207.4
+		        ],
+		        "backgroundColor":[  
+							"rgba(100, 227, 129, 0.5)",
+							"rgba(80, 207, 109, 0.5)",
+							"rgba(60, 187, 89, 0.5)"
+		        ],
+		        "borderColor":[  
+							"rgba(100, 227, 129, 1)",
+							"rgba(80, 207, 109, 1)",
+							"rgba(60, 187, 89, 1)"
+		        ],
+		        "borderWidth":1
+		      }
+		    ]
+		  },
+		  "options":{  
+		    "scales":{  
+		      "yAxes":[  
+		        {  
+		          "ticks":{  
+		            "beginAtZero":true
+		          }
+		        }
+		      ]
+		    },
+				"responsive":true,
+				"maintainAspectRatio":false
+		  }
+		},
+		{  
+		  "type":"line",
+		  "data":{  
+		    "labels":[  
+		      "Jan",
+		      "Feb",
+		      "Mar",
+		      "Apr",
+		      "May",
+		      "Jun",
+		      "Jul",
+		      "Aug",
+		      "Sep",
+		      "Oct",
+		      "Nov",
+		      "Dec"
+		    ],
+		    "datasets":[  
+		      {  
+		        "label":"Sales",
+		        "backgroundColor":"rgba(70, 197, 99, 0.5)",
+		        "borderColor":"rgba(70, 197, 99, 0.5)",
+		        "data":[  
+		          10,
+		          12,
+		          13,
+		          11,
+		          15,
+		          18,
+		          22,
+		          27,
+		          23,
+		          17,
+		          14,
+		          26
+		        ],
+		        "fill":false
+		      },
+		      {  
+		        "label":"Revenue",
+		        "fill":false,
+		        "backgroundColor":"rgba(20, 147, 49, 0.5)",
+		        "borderColor":"rgba(20, 147, 49, 0.5)",
+		        "data":[  
+		          8,
+		          10,
+		          12,
+		          13,
+		          12,
+		          15,
+		          16,
+		          15,
+		          18,
+		          25,
+		          26,
+		          22
+		        ]
+		      }
+		    ]
+		  },
+		  "options":{
+			  "maintainAspectRatio":false,
+		    "responsive":true,
+		    "tooltips":{  
+		      "mode":"index",
+		      "intersect":false
+		    },
+		    "hover":{  
+		      "mode":"nearest",
+		      "intersect":true
+		    },
+		    "scales":{  
+		      "xAxes":[  
+		        {  
+		          "display":true,
+		          "scaleLabel":{  
+		            "display":true,
+		            "labelString":"Month"
+		          }
+		        }
+		      ],
+		      "yAxes":[  
+		        {  
+		          "display":true,
+		          "scaleLabel":{  
+		            "display":true,
+		            "labelString":"Value"
+		          }
+		        }
+		      ]
+		    }
+		  }
+		},
+		{
+			"type":"pie",
+			"data":{
+				"datasets":[
+					{
+						"data":[
+		          504,
+		          409,
+		          389,
+		          325,
+		          253,
+		          226
+						],
+						"backgroundColor":[
+							"rgba(100, 227, 129, 0.5)",
+							"rgba(80, 207, 109, 0.5)",
+							"rgba(60, 187, 89, 0.5)",
+							"rgba(40, 167, 69, 0.5)",
+							"rgba(20, 147, 49, 0.5)",
+							"rgba(0, 127, 29, 0.5)"							
+						]
+					}
+				],
+				"labels":[
+		      "Beauty and the Beast",
+		      "Wonder Woman",
+		      "Guardians of the Galaxy Vol. 2",
+		      "Spider-Man: Homecoming",
+		      "Despicable Me 3",
+		      "Logan"
+				]
+			},
+			"options":{
+				"title":{
+					"display":true,
+					"text":"Domestic gross in million USD"
+				},
+				"maintainAspectRatio":false,
+				"responsive":true,
+				"legend":{
+					"position": "left"
+				}
+			}
+		},
+		{
+			"type":"horizontalBar",
+			"data":{
+				"labels":[
+					"Asia",
+					"Africa",
+					"North America",
+					"South America",
+					"Antarctica",
+					"Europe",
+					"Australia/Oceania"
+				],
+				"datasets":[
+					{
+						"label":"# of unicorns per continent",
+						"backgroundColor":[
+							"rgba(120, 247, 149, 0.5)",
+							"rgba(100, 227, 129, 0.5)",
+							"rgba(80, 207, 109, 0.5)",
+							"rgba(60, 187, 89, 0.5)",
+							"rgba(40, 167, 69, 0.5)",
+							"rgba(20, 147, 49, 0.5)",
+							"rgba(0, 127, 29, 0.5)"							
+						],
+						"borderColor":[
+							"rgba(120, 247, 149, 1)",
+							"rgba(100, 227, 129, 1)",
+							"rgba(80, 207, 109, 1)",
+							"rgba(60, 187, 89, 1)",
+							"rgba(40, 167, 69, 1)",
+							"rgba(20, 147, 49, 1)",
+							"rgba(0, 127, 29, 1)"							
+						],
+						"borderWidth":1,
+						"data":[
+							7,
+							24,
+							13,
+							8,
+							35,
+							17,
+							3
+						]
+					}
+				]
+			},
+			"options":{
+				"maintainAspectRatio":false,
+				"responsive":true
+			}
+		},
+		{  
+		  "type":"bar",
+		  "data":{  
+		    "labels":[  
+		      "Star Wars VII",
+		      "Jurassic World",
+		      "Marvel's The Avengers"
+		    ],
+		    "datasets":[  
+		      {  
+		        "label":"Opening weekends (million USD)",
+		        "data":[  
+		          247.9,
+		          208.8,
+		          207.4
+		        ],
+		        "backgroundColor":[  
+							"rgba(100, 227, 129, 0.5)",
+							"rgba(80, 207, 109, 0.5)",
+							"rgba(60, 187, 89, 0.5)"
+		        ],
+		        "borderColor":[  
+							"rgba(100, 227, 129, 1)",
+							"rgba(80, 207, 109, 1)",
+							"rgba(60, 187, 89, 1)"
+		        ],
+		        "borderWidth":1
+		      }
+		    ]
+		  },
+		  "options":{  
+		    "scales":{  
+		      "yAxes":[  
+		        {  
+		          "ticks":{  
+		            "beginAtZero":true
+		          }
+		        }
+		      ]
+		    },
+				"responsive":true,
+				"maintainAspectRatio":false
+		  }
+		},
+		{  
+		  "type":"line",
+		  "data":{  
+		    "labels":[  
+		      "Jan",
+		      "Feb",
+		      "Mar",
+		      "Apr",
+		      "May",
+		      "Jun",
+		      "Jul",
+		      "Aug",
+		      "Sep",
+		      "Oct",
+		      "Nov",
+		      "Dec"
+		    ],
+		    "datasets":[  
+		      {  
+		        "label":"Sales",
+		        "backgroundColor":"rgba(70, 197, 99, 0.5)",
+		        "borderColor":"rgba(70, 197, 99, 0.5)",
+		        "data":[  
+		          10,
+		          12,
+		          13,
+		          11,
+		          15,
+		          18,
+		          22,
+		          27,
+		          23,
+		          17,
+		          14,
+		          26
+		        ],
+		        "fill":false
+		      },
+		      {  
+		        "label":"Revenue",
+		        "fill":false,
+		        "backgroundColor":"rgba(20, 147, 49, 0.5)",
+		        "borderColor":"rgba(20, 147, 49, 0.5)",
+		        "data":[  
+		          8,
+		          10,
+		          12,
+		          13,
+		          12,
+		          15,
+		          16,
+		          15,
+		          18,
+		          25,
+		          26,
+		          22
+		        ]
+		      }
+		    ]
+		  },
+		  "options":{
+			  "maintainAspectRatio":false,
+		    "responsive":true,
+		    "tooltips":{  
+		      "mode":"index",
+		      "intersect":false
+		    },
+		    "hover":{  
+		      "mode":"nearest",
+		      "intersect":true
+		    },
+		    "scales":{  
+		      "xAxes":[  
+		        {  
+		          "display":true,
+		          "scaleLabel":{  
+		            "display":true,
+		            "labelString":"Month"
+		          }
+		        }
+		      ],
+		      "yAxes":[  
+		        {  
+		          "display":true,
+		          "scaleLabel":{  
+		            "display":true,
+		            "labelString":"Value"
+		          }
+		        }
+		      ]
+		    }
+		  }
+		},
+		{
+			"type":"pie",
+			"data":{
+				"datasets":[
+					{
+						"data":[
+		          504,
+		          409,
+		          389,
+		          325,
+		          253,
+		          226
+						],
+						"backgroundColor":[
+							"rgba(100, 227, 129, 0.5)",
+							"rgba(80, 207, 109, 0.5)",
+							"rgba(60, 187, 89, 0.5)",
+							"rgba(40, 167, 69, 0.5)",
+							"rgba(20, 147, 49, 0.5)",
+							"rgba(0, 127, 29, 0.5)"							
+						]
+					}
+				],
+				"labels":[
+		      "Beauty and the Beast",
+		      "Wonder Woman",
+		      "Guardians of the Galaxy Vol. 2",
+		      "Spider-Man: Homecoming",
+		      "Despicable Me 3",
+		      "Logan"
+				]
+			},
+			"options":{
+				"title":{
+					"display":true,
+					"text":"Domestic gross in million USD"
+				},
+				"maintainAspectRatio":false,
+				"responsive":true,
+				"legend":{
+					"position": "left"
+				}
+			}
+		},
+		{
+			"type":"horizontalBar",
+			"data":{
+				"labels":[
+					"Asia",
+					"Africa",
+					"North America",
+					"South America",
+					"Antarctica",
+					"Europe",
+					"Australia/Oceania"
+				],
+				"datasets":[
+					{
+						"label":"# of unicorns per continent",
+						"backgroundColor":[
+							"rgba(120, 247, 149, 0.5)",
+							"rgba(100, 227, 129, 0.5)",
+							"rgba(80, 207, 109, 0.5)",
+							"rgba(60, 187, 89, 0.5)",
+							"rgba(40, 167, 69, 0.5)",
+							"rgba(20, 147, 49, 0.5)",
+							"rgba(0, 127, 29, 0.5)"							
+						],
+						"borderColor":[
+							"rgba(120, 247, 149, 1)",
+							"rgba(100, 227, 129, 1)",
+							"rgba(80, 207, 109, 1)",
+							"rgba(60, 187, 89, 1)",
+							"rgba(40, 167, 69, 1)",
+							"rgba(20, 147, 49, 1)",
+							"rgba(0, 127, 29, 1)"							
+						],
+						"borderWidth":1,
+						"data":[
+							7,
+							24,
+							13,
+							8,
+							35,
+							17,
+							3
+						]
+					}
+				]
+			},
+			"options":{
+				"maintainAspectRatio":false,
+				"responsive":true
+			}
+		}
+	]
+}
