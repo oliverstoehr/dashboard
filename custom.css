@@ -32,3 +32,21 @@ main {
 @keyframes loading-animation {
 	100% {transform: rotate(360deg);}
 }
+
+.card {
+	padding: 5px;
+	height: 100%;
+}
+
+.col-md-4 {
+	padding: 5px;
+	height: 28vw;
+}
+
+@media (max-width: 767px) {
+	.col-md-4 {
+		height: 65vw;
+	}
+}
+
+
