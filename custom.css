@@ -33,9 +33,21 @@ main {
 	100% {transform: rotate(360deg);}
 }
 
+.card > h2 {
+	font-size: 1.5rem;
+}
+
+.card > div {
+	position: absolute;
+	height: 75%;
+	width: calc(100% - 5px);
+	bottom: 5px;
+}
+
 .card {
 	padding: 5px;
 	height: 100%;
+	position: relative;
 }
 
 .col-md-4 {
